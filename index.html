@@ -14,56 +14,63 @@
         <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented
             crossover jazz became dominant in the 1980s and early 1990s.</p>
 
-        <input type="checkbox">
-        <label><span></span></label>
-        <nav>
+            <nav>
+            <input id="hamburger" type="checkbox">
+            <label for="hamburger"><span></span></label>
             <ul>
                 <li><a href="index.html">MuzakMaker</a></li>
                 <li><a href="trending.html">Trending Songs</a></li>
                 <li><a href="playlists.html">Your playlists</a></li>
                 <li><a href="curated.html">Curated Playlists</a></li>
-                <li>
-                    <figure>
-                        <img src="./images/duke-silver.png" alt="Duke Silver">
-                    </figure>
                 </li>
+                <li><figure>
+                    <img src="./images/duke-silver.png" alt="Duke Silver">
+                </figure></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="trendingSongs">
             <h2>Trending Songs</h2>
+            <section class="aloma">
+                <div class="alomaTitle">
             <h3>Aloma</h3>
-            <p><em>Artist</em> Cali</p>
+            <p><em>Artist</em> Cali</p></div>
             <img src="/images/aloma-cover.png" alt="Aloma">
             <audio src="/audio/aloma.mp3"></audio>
         </section>
-        <section>
+        <section class="myRoad">
+            <div class="myRoadTitle">
             <h3>My Road</h3>
-            <p><em>Artist</em> Nesterouk</p>
+            <p><em>Artist</em> Nesterouk</p></div>
             <img src="/images/my-road-cover.png" alt="My Road">
             <audio src="/audio/my-road.mp3"></audio>
         </section>
-        <section>
+        <section class="papaya">
+            <div class="papayaTitle">
             <h3>Papaya</h3>
-            <p><em>Artist</em> Dredstudio</p>
+            <p><em>Artist</em> Dredstudio</p></div>
             <img src="/images/papaya-cover.png" alt="Papaya">
             <audio src="/audio/papaya.mp3"></audio>
         </section>
-        <section>
+        <section class="smoothies">
+            <div class="smoothiesTitle">
             <h3>Smoothies</h3>
-            <p><em>Artist</em> Black Rhomb</p>
+            <p><em>Artist</em> Black Rhomb</p></div>
             <img src="/images/smoothies-cover.png" alt="Smoothies">
             <audio src="/audio/smoothies.mp3"></audio>
         </section>
-        <section>
+        <section class="successfulPerformance">
+            <div class="successfulPerformanceTitle">
             <h3>Successful Performance</h3>
-            <p><em>Artist</em> Ricky Bombino</p>
+            <p><em>Artist</em> Ricky Bombino</p></div>
             <img src="/images/successful-performance-cover.png" alt="Successful Performance">
             <audio src="/audio/successful-performance.mp3"></audio>
-            <button>More trending</button>
         </section>
-        <section>
+    </section>
+    <button class="moreTrending-btn">More trending</button>
+
+        <section style="border: 1px solid fuchsia">
             <h2>Your Playlists</h2>
             <section>
                 <img src="/images/best-of-2020-cover.png" alt="Best of 2020">
@@ -93,7 +100,7 @@
 
             <button>All your playlists</button>
         </section>
-        <section>
+        <section style="border: 1px solid yellow">
             <h2>Curated Playlists</h2>
             <section>
                 <img src="/images/boozy-brunch-cover.png" alt="Boozy Brunch">
